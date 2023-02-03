@@ -3,10 +3,10 @@ first you should add the below proxies to /etc/environment
 ```
 root@gitlab:~# cat /etc/environment 
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-HTTP_PROXY=http://pxuser:dkdevops@54.37.56.140:7777
-HTTPS_PROXY=http://pxuser:dkdevops@54.37.56.140:7777
-http_proxy=http://pxuser:dkdevops@54.37.56.140:7777
-https_proxy=http://pxuser:dkdevops@54.37.56.140:7777
+HTTP_PROXY=http://YOUR_PROXY
+HTTPS_PROXY=http://YOUR_PROXY
+http_proxy=http://YOUR_PROXY
+https_proxy=http://YOUR_PROXY
 ```
 then you better create a virtualenv and use it:
 ```
